@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sorting</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div id = "canvas_container">
+            <canvas width="1000" height="600" id="canv"></canvas>
+            <div id="list_container" onclick="sortEvent(event)">
+                <a href="#" id="oddEven">Odd-Even Sort</a>
+                <a href="#" id="selection">Selection Sort</a>
+                <a href="#" id="insertion">Insertion Sort</a>
+                <a href="#" id="bubble">Bubble Sort</a>
+                <a href="#" id="quick">Quick Sort</a>
+                <a href="#" id="cancel">Cancel Animation</a>
+            </div>
+        </div>
+        <form onsubmit="changeGradientEvent()">
+            <h3>Change Gradient</h3>
+            <input type="color" placeholder="First Color" id="firstColor" required>
+            <input type="color" placeholder="Second Color" id="secondColor" required><br>
+            <button type="submit" id="gradientSubmitButton">Change Gradient</button>
+        </form>
+
+        <script src="js/libraries/color-gradient.js" type="text/javascript"></script>
+        <script src="js/nodeArray/nodeArray.js" type="text/javascript"></script>
+        <script src="js/SortingScripts/quickSort.js" type="text/javascript"></script>
+        <script src="js/SortingScripts/bubbleSort.js" type="text/javascript"></script>
+        <script src="js/SortingScripts/selectionSort.js" type="text/javascript"></script>
+        <script src="js/SortingScripts/insertionSort.js" type="text/javascript"></script>
+        <script src="js/SortingScripts/oddEvenSort.js" type="text/javascript"></script>
+        <script src="js/SortingScripts/mergeSort.js" type="text/javascript"></script>
+        <script src="js/SortingScripts/countingSort.js" type="text/javascript"></script>
+        <script src="js/canvas/canvas.js" type="text/javascript"></script>
+        <script src="js/index.js" type="text/javascript"></script>
+    </body>
+</html>

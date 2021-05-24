@@ -1,0 +1,31 @@
+#canvas_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#canv {
+    border: 2px solid black;
+}
+
+#list_container {
+    border: 2px solid black;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+#gradientSubmitButton {
+    margin-top: 4px;
+}
+
+a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #ccc;
+}
